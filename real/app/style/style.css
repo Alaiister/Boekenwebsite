@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Open Sans', sans-serif;
+   color: #333;
+   background: #fff;
+}
+
+a {
+    color: #333;
+  
+}
+
+img {
+    max-width: 100%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+header {
+    padding: 20px 0 15px;
+    background: #000a4e;
+    color: #fff;
+}
+
+header a {
+    color: #fff;
+    padding: 2px 7px;
+}
+
+header .logo {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+
+.register-form {
+    border: 1px solid #ccc;;
+    padding: 15px 20px 80px;;
+    margin-top: 50px;
+    border-radius: 4px;
+
+}
+
+.register-form h1 {
+    font-size: 15px;
+    color: #000a4e;
+    FONT-WEIGHT: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;  
+}
+
+.register-form input[type=text], .register-form input[type=email], .register-form input[type=password]  {
+    width: 100%;
+    border: 1px solid #f2f2f2;;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.register-form input[type=submit] {
+    background: #000a4e;
+    border: none;
+    color: #fff;
+    float: right;
+    padding: 5px 8px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.book-title {
+    color: #000a4e;
+    font-weight: 600;
+    font-size: 38px;
+    margin: 20px 0; 
+}
+
+.btn-blue {
+    background: #000a4e;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    transition: all 500ms;
+    text-decoration: none !important;
+    margin: 20px 0 0;
+}
+
+.btn-blue:hover {
+    background: #000527;
+    color: #fff;
+}
+
+.book-page-img {
+    height: 500px;
+}
